@@ -10,5 +10,10 @@
     "plugin"
   ],
   "author": "Brian Olore <brian@olore.net> (https://github.com/olore)",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/olore/html-webpack-string-replace-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olore/html-webpack-string-replace-plugin.git"
+  }
 }
