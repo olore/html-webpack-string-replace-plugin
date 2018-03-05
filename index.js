@@ -13,7 +13,9 @@ HtmlWebpackStringReplacePlugin.prototype.done = function (compilation) {
       htmlPluginData.html = htmlPluginData.html
         .replace(new RegExp(key, 'g'), value);
     });
-    callback(null, htmlPluginData);
+    if (callback) { // no longer in webpack 4
+      callback(null, htmlPluginData);
+    }
   });
 
 };
